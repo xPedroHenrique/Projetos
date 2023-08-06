@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--<link rel="stylesheet" href="style.css">-->
+</head>
+<style>
+    body {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    section {
+        box-shadow: 1px 1px 9px rgba(0, 0, 0, .9);
+        border-radius: 5px;
+        padding: 2%;
+        width: 25%;
+    }
+
+    form input,
+    form label,
+    form button {
+        margin: 2px;
+        padding: 5px;
+        width: 15%;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    
+    div {
+        font-size: 25px;
+    }
+</style>
+
+<body>
+    <section class="container">
+        <form action="" class="form" method="post">
+
+            <input type="number" id="num1" placeholder="N° 1">
+            <input type="number" id="num2" placeholder="N° 2"></p>
+            <input type="button" value="+" onclick="soma()">
+            <input type="button" value="-" onclick="sub()">
+            <input type="button" value="*" onclick="multi()">
+            <input type="button" value="/" onclick="divi()">
+            <input type="button" value="**" onclick="gerar()">
+
+            <div id="res">
+
+            </div>
+
+            <script src="./script.js"></script>
+        </form>
+    </section>
+
+</body>
+
+</html>

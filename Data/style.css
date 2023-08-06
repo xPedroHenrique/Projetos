@@ -1,0 +1,77 @@
+body {
+    height: 100vh;
+    background: linear-gradient(170deg, #e310a4d8, #440befda);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 250px;
+    width: 550px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, .9);
+    margin: 30px;
+}
+
+.data div {
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(5, 5, 5, .9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+.data span {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.data span.tempo {
+    font-size: 20px;
+}
+
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 250px;
+    width: 550px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow:0px 0px 9px  rgba(0, 0, 0, .9);
+    margin: 30px;
+}
+
+.relogio div {
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(5, 5, 5, .9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+.relogio span {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.relogio span.tempo {
+    font-size: 20px;
+}

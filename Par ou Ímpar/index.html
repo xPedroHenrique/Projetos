@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Par ou Ímpar</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+
+<body>
+    <header>
+        <h1>Descobrindo se o número digitado é PAR ou ÍMPAR</h1>
+    </header>
+    <section>
+        <input type="number" name="num" id="num">
+        <input type="button" value="Gerar número" onclick="gerar()">
+        <p>
+        <div id="res"></div>
+        </p>
+        <script>
+            function gerar() {
+                let num = document.getElementById('num')
+                let res = document.getElementById('res')
+
+                if (num.value % 2 == 0) {
+                    res.innerHTML = `<strong>${num.value} É PAR</strong>`
+                } else {
+                    res.innerHTML = `<strong>${num.value} É ÍMPAR</strong>`
+                }
+                num.value = ""
+                num.focus()
+            }
+
+
+        </script>
+    </section>
+</body>
+<footer>
+    <p>&copy; xPedroHenrique</p>
+</footer>
+
+</html>

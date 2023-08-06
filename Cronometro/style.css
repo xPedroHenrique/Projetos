@@ -1,0 +1,67 @@
+:root {
+    --primary-color: #c795f6;
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    font-family: monospace;
+}
+
+.container {
+    background-color: var(--primary-color);
+    width: 30%;
+    padding: 5px;
+    margin: 50px;
+    border-radius: 9px;
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, .9);
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+}
+
+.relogio {
+    font-size: 2.0em;
+}
+
+button {
+    font-size: 1.0em;
+}
+button.iniciar{
+    background-color: #fff;
+    color: black;
+    border-color: #fff;
+}
+
+button.pausar{
+    background-color: #fff;
+    color: black;
+    border-color: #fff;
+}
+
+button.zerar{
+    background-color: #fff;
+    color: black;
+    border-color: #fff;
+}
+
+footer {
+    text-align: center;
+}
+
+p {
+    background-color: rgb(113, 135, 233);
+}
+
+p:hover {
+    color: gold;
+    cursor: pointer;
+}
