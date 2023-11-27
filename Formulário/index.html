@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main id="container">
+
+        <form id="login-form" action="https://www.espn.com.br/nba/resultados" method="post">
+
+            <div id="form-header">
+                <h1>Login</h1>
+                <i id="mode-icon" class="fa-solid fa-moon"></i>
+            </div>
+
+            <div id="social-media">
+                <a href="https://www.facebook.com/" target="_blank" alt="Facebook">
+                    <img src="./img/facebook.png" alt="Facebook">
+                </a>
+
+                <a href="https://www.google.com.br/" target="_blank" alt="Google">
+                    <img src="./img/google.png" alt="Google">
+                </a>
+
+                <a href="https://github.com/xPedroHenrique?tab=repositories" target="_blank" alt="Github">
+                    <img src="./img/github.png" alt="Github">
+                </a>
+            </div>
+
+            <div id="inputs">
+                <div class="input-box">
+                    <label for="name">
+                        Name
+                        <div class="input-field">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" class="name">
+                        </div>
+                    </label>
+                </div>
+
+                <div id="input-box">
+                    <label for="email">
+                        Email
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" class="email">
+                        </div>
+                    </label>
+                </div>
+
+                <div id="input-box">
+                    <label for="password">
+                        Password
+                        <div class="input-field">
+                            <i class="fa-solid fa-key"></i>
+                            <input type="password" class="password">
+                        </div>
+                    </label>
+
+                    <div id="forgot-password">
+                        <a href="#">
+                            Forgot your password
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" id="login-button">
+                Login
+            </button>
+
+        </form>
+    </main>
+</body>
+
+<script src="./script.js"></script>
+
+</html>
