@@ -35,33 +35,32 @@ body {
 button {
     font-size: 1.0em;
 }
-button.iniciar{
+
+button.iniciar {
     background-color: #fff;
     color: black;
     border-color: #fff;
+    cursor: pointer;
 }
 
-button.pausar{
+button.pausar {
     background-color: #fff;
     color: black;
     border-color: #fff;
+    cursor: pointer;
 }
 
-button.zerar{
+button.zerar {
     background-color: #fff;
     color: black;
     border-color: #fff;
+    cursor: pointer;
 }
 
 footer {
     text-align: center;
 }
 
-p {
-    background-color: rgb(113, 135, 233);
-}
-
 p:hover {
     color: gold;
-    cursor: pointer;
 }
