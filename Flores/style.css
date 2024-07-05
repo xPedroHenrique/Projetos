@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   background-color: aquamarine;
+}
+
+.message {
+    font-size: 55px;
+    font-weight: bold;
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    width: 90vw;
+    max-width: 1200px;
+    margin-top: 400px; 
+    position: relative;
+}
+
+.tulip {
+    position: relative;
+    bottom: 0;
+    margin: 10px 20px;
+    animation: rise 5s infinite;
+}
+
+.tulip1 { animation-delay: 0s; }
+.tulip2 { animation-delay: 0.5s; }
+.tulip3 { animation-delay: 1s; }
+.tulip4 { animation-delay: 1.5s; }
+.tulip5 { animation-delay: 2s; }
+.tulip6 { animation-delay: 2.5s; }
+.tulip7 { animation-delay: 3s; }
+.tulip8 { animation-delay: 3.5s; }
+.tulip9 { animation-delay: 4s; }
+.tulip10 { animation-delay: 4.5s; }
+
+.stem {
+    width: 10px;
+    height: 150px;
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.leaf {
+    width: 70px;
+    height: 30px;
+    background-color: green;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-45deg);
+    border-radius: 50% 50% 0 0;
+}
+
+.petal {
+    width: 50px;
+    height: 80px;
+    background-color: red;
+    position: absolute;
+    bottom: 150px;
+    border-radius: 50% 50% 0 0;
+}
+
+.petal1 {
+    transform: rotate(-20deg);
+    left: 50%;
+    transform: translateX(-75%) rotate(-20deg);
+}
+
+.petal2 {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.petal3 {
+    transform: rotate(20deg);
+    left: 50%;
+    transform: translateX(-25%) rotate(20deg);
+}
+
+@keyframes rise {
+    0%, 100% {
+        transform: translateY(100px);
+    }
+    50% {
+        transform: translateY(-50px);
+    }
+}
+
+#play {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #141518;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+}
